@@ -1,0 +1,26 @@
+{
+    "TEST_TYPE": ["REGRESSION","CONTRACT","SANITY"],
+    "TEST_ENVIRONMENT": {
+        "QA" : {
+          "USERNAME": "xxx",
+          "PASSWORD": "xxx",
+          "HOST": "https://xxx.com",
+          "PORT": 5432,
+          "DB": "xxx_database"
+        },
+        "DEV" :{
+          "USERNAME": "yyy",
+          "PASSWORD": "yyy",
+          "HOST": "127.0.0.1",
+          "PORT": 5432,
+          "DB": "yyy_database"
+        },
+        "PRE_PROD" : {
+          "USERNAME": "zzzz",
+          "PASSWORD": "zzz",
+          "HOST": "https://zzz.com",
+          "PORT": 5432,
+          "DB": "yyy_database"
+        }
+    }
+}
