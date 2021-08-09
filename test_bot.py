@@ -11,6 +11,6 @@ def test_assert_contain():
     assert 1 in (1, 2, 3)
 
 
-@pytest.mark.CONTARCT
+@pytest.mark.CONTRACT
 def test_assert_addition():
     assert 1 + 2 == 3
